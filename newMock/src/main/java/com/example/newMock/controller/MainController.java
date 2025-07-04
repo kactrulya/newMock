@@ -80,4 +80,5 @@ public class MainController {
         double randomDouble = random.nextDouble(); // от 0.0 до 1.0
         return max.multiply(BigDecimal.valueOf(randomDouble)).setScale(2, BigDecimal.ROUND_HALF_UP);
     }
+    //n
 }
